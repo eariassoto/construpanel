@@ -1,17 +1,16 @@
-/* GLOBAL STYLES
--------------------------------------------------- */
-/* Padding below the footer and lighter body text */
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
 }
 
-
-/* CUSTOMIZE THE NAVBAR
+/* NAVBAR
 -------------------------------------------------- */
 
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
   top: 0;
@@ -20,7 +19,6 @@ body {
   z-index: 20;
 }
 
-/* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper > .container {
   padding-right: 0;
   padding-left: 0;
@@ -34,7 +32,7 @@ body {
 }
 
 
-/* CUSTOMIZE THE CAROUSEL
+/* CAROUSEL
 -------------------------------------------------- */
 
 /* Carousel base class */
@@ -61,18 +59,18 @@ body {
 }
 
 
-/* MARKETING CONTENT
+/* CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-4 {
+.content .col-lg-4 {
   margin-bottom: 20px;
   text-align: center;
 }
-.marketing h2 {
+.content h2 {
   font-weight: normal;
 }
-.marketing .col-lg-4 p {
+.content .col-lg-4 p {
   margin-right: 10px;
   margin-left: 10px;
 }
@@ -82,10 +80,9 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 80px 0; 
 }
 
-/* Thin out the marketing headings */
 .featurette-heading {
   font-weight: 300;
   line-height: 1;
@@ -131,4 +128,13 @@ body {
   .featurette-heading {
     margin-top: 120px;
   }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 80px;
+  background-color: #333;
 }
