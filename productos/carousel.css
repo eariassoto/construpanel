@@ -1,0 +1,202 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding-bottom: 40px;
+    color: #5a5a5a;
+}
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+ /* barra de busqueda */
+input.search-query {
+    padding:1em 1em 1em 26px;
+}
+form.form-search {
+    padding-left: .25em;
+    position: relative;
+}
+form.form-search:before {
+    display: block;
+    width: 28px;
+    height: 14px;
+    content: "\e003";
+    font-family: 'Glyphicons Halflings';
+    font-size: 20px;
+    background-position: -48px 0;
+    position: absolute;
+    top:8px;
+    left:8px;
+    opacity: .5;
+    z-index: 1000;
+}
+
+.form-control{
+    width: 50% !important;
+    font-size: 24px;
+    border-radius: 0;
+}
+ /* fin de barra busqueda */
+
+
+/* panel productos */
+
+.div-content{
+    padding: 1em 1em 1em 0;
+}
+
+.content-section{
+    min-height: 20px;
+    padding: 0 19px 19px 15px;
+    margin-bottom: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+.content-section-title .left{
+    background-color: #222;
+    color:white;
+    padding-left: 0.5em;
+}
+
+.content-section-title .left h3{
+    margin: 10px 0 10px 0;
+    font-size: 28px;
+}
+
+.content-section-title .right{
+    text-align: right;
+}
+
+.content-section-title .right h4{
+    margin-bottom: 0;
+}
+
+.content-section-title{
+    border-bottom: 5px solid #222;
+}
+
+.content-section .description{
+    padding-top: 1em;
+}
+
+.content-image{
+    width: 304px;
+    height: 228px;
+    padding-left: 0.5em!important;
+}
+
+.content-p{
+    font-size: 18px;
+}
+
+/* fin panel de productos */
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+    /* Navbar positioning foo */
+    .navbar-wrapper {
+        margin-top: 20px;
+    }
+    .navbar-wrapper .container {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .navbar-wrapper .navbar {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    /* The navbar becomes detached from the top, so we round the corners */
+    .navbar-wrapper .navbar {
+        border-radius: 4px;
+    }
+
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 20px;
+        font-size: 21px;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .featurette-heading {
+        margin-top: 120px;
+    }
+}

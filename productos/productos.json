@@ -1,0 +1,762 @@
+[
+  {
+    "nombre": "panel cub 2gr/3gr",
+    "descripcion": "panel cubierta con tapajunta",
+    "imagen": "images/1.png",
+    "diagrama": "images/diagrama/1.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Acero prelacado, Aluminio centesimal, Cartón bituminoso"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40/50/60/80/100"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "panel agro 3gr",
+    "descripcion": "panel cubierta con tapajunta de uso agrícola",
+    "imagen": "images/2.png",
+    "diagrama": "images/diagrama/2.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Poliéster"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40/50"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "bandeja ban 130.600",
+    "descripcion": "bandeja autoportante",
+    "imagen": "images/3.png",
+    "diagrama": "images/diagrama/3.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 600mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40/50"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "bandeja ban 90.380",
+    "descripcion": "bandeja autoportante",
+    "imagen": "images/4.png",
+    "diagrama": "images/diagrama/4.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 380mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Desde 0.7 hasta 1.2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 56 deck",
+    "descripcion": "cubierta deck",
+    "imagen": "images/5.png",
+    "diagrama": "images/diagrama/5.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 952mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Desde 0.7 hasta 1.2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 68 deck",
+    "descripcion": "cubierta deck",
+    "imagen": "images/6.png",
+    "diagrama": "images/diagrama/6.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 872mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Desde 0.7 hasta 1.2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "panel fachada prf/sml/lis",
+    "descripcion": "panel fachada",
+    "imagen": "images/7.png",
+    "diagrama": "images/diagrama/7.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR / INTERIOR:",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "AISLANTE",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1100mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "35/40/50/60/80/100"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas"
+      }
+    ]
+  },
+  {
+    "nombre": "panel fachada modular 900-1000",
+    "descripcion": "panel fachada",
+    "imagen": "images/8.png",
+    "diagrama": "images/diagrama/8.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado 0,7 / 0,6"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Acero prelacado 0,5"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 900/1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "35/40/50/60/80/100"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas arquitectónicas"
+      }
+    ]
+  },
+  {
+    "nombre": "muro",
+    "descripcion": "panel fachada",
+    "imagen": "images/9.png",
+    "diagrama": "images/diagrama/9.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, casetas prefabricadas, falses techos, cámaras frigoríficas y sectorización"
+      }
+    ]
+  },
+  {
+    "nombre": "frigo",
+    "descripcion": "panel frigorífico",
+    "imagen": "images/10.png",
+    "diagrama": "images/diagrama/10.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1100mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "60/80/100/120/140/160/180/200"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cámaras frigoríficas y sectorización"
+      }
+    ]
+  },
+  {
+    "nombre": "panel teja",
+    "descripcion": "panel de cubierta",
+    "imagen": "images/11.png",
+    "diagrama": "images/diagrama/11.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Acero prelacado, Aluminio centesimal, Cartón fieltro"
+      },
+      {
+        "titulo": "ACABADO EXTERIOR COLOR:",
+        "contenido": "Albero evejecido, rojo teja, pizarra"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ACABDO INTERIOR COLOR:",
+        "contenido": "Colores estándar, terminación madera"
+      },
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "20/30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "policarbonato alveolar",
+    "descripcion": "panel de iluminación",
+    "imagen": "images/12.png",
+    "col1": [
+      {
+        "titulo": "COMPOSICIÓN:",
+        "contenido": "Policarbonato alveolar"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1100mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "policarbonato compacto",
+    "descripcion": "lucernario",
+    "imagen": "images/13.png",
+    "diagrama": "images/diagrama/12.png",
+    "col1": [
+      {
+        "titulo": "COMPOSICIÓN:",
+        "contenido": "Policarbonato compacto"
+      },
+      {
+        "titulo": "DISPONIBLE PARA:",
+        "contenido": "MO 18, MT-32, MT-42 y MT 52"
+      },
+      {
+        "titulo": "CURVABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "1,0"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "mo - 18 minionda",
+    "descripcion": "chapa perfilada minionda",
+    "imagen": "images/14.png",
+    "diagrama": "images/diagrama/13.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1064mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 32 / 32F",
+    "descripcion": "chapa perfilada",
+    "imagen": "images/15.png",
+    "diagrama": "images/diagrama/14.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      },
+      {
+        "titulo": "CURVABLE"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 42",
+    "descripcion": "chapa perfilada",
+    "imagen": "images/16.png",
+    "diagrama": "images/diagrama/15.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      },
+      {
+        "titulo": "CURVABLE"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas, cubiertas DECK"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 52",
+    "descripcion": "chapa perfilada",
+    "imagen": "images/17.png",
+    "diagrama": "images/diagrama/16.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado/Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 895mm"
+      },
+      {
+        "titulo": "CURVABLE"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas, cubiertas, cubiertas DECK"
+      }
+    ]
+  },
+  {
+    "nombre": "mt - 44 ibiza",
+    "descripcion": "fachada arquitectónica",
+    "imagen": "images/18.png",
+    "diagrama": "images/diagrama/17.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Prelacado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1010mm"
+      },
+      {
+        "titulo": "PERFORABLE"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,0"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Fachadas"
+      }
+    ]
+  },
+  {
+    "nombre": "forjado mt - 60",
+    "descripcion": "forjado colaborante",
+    "imagen": "images/19.png",
+    "diagrama": "images/diagrama/18.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 820mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Forjado colaborante"
+      }
+    ]
+  },
+  {
+    "nombre": "forjado mt - 76",
+    "descripcion": "forjado colaborante",
+    "imagen": "images/20.png",
+    "diagrama": "images/diagrama/19.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 880mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Forjado colaborante"
+      }
+    ]
+  },
+  {
+    "nombre": "forjado mt - 100",
+    "descripcion": "forjado colaborante",
+    "imagen": "images/21.png",
+    "diagrama": "images/diagrama/20.png",
+    "col1": [
+      {
+        "titulo": "ACABADO:",
+        "contenido": "Galvanizado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 675mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "Hasta 1,2"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Forjado colaborante"
+      }
+    ]
+  },
+  {
+    "nombre": "easy cub 3gr/5gr",
+    "descripcion": "panel cubierta sin tapajunta",
+    "imagen": "images/22.png",
+    "diagrama": "images/diagrama/21.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR:",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR:",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "easy agro 3gr/5gr",
+    "descripcion": "panel cubierta sin tapajuntas uso agrícola",
+    "imagen": "images/23.png",
+    "diagrama": "images/diagrama/22.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR",
+        "contenido": "Poliéster"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "easy alu 3gr/5gr",
+    "descripcion": "panel cubierta sin tapajunta",
+    "imagen": "images/24.png",
+    "diagrama": "images/diagrama/23.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR:",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR:",
+        "contenido": "Aluminio centesimal"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas"
+      }
+    ]
+  },
+  {
+    "nombre": "easy board 3gr/5gr",
+    "descripcion": "panel cubierta sin tapajunta",
+    "imagen": "images/25.png",
+    "diagrama": "images/diagrama/24.png",
+    "col1": [
+      {
+        "titulo": "CARA EXTERIOR:",
+        "contenido": "Acero prelacado"
+      },
+      {
+        "titulo": "CARA INTERIOR:",
+        "contenido": "Cartón bituminoso"
+      },
+      {
+        "titulo": "ANCHO ÚTIL 1000mm"
+      }
+    ],
+    "col2": [
+      {
+        "titulo": "AISLANTE:",
+        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
+      },
+      {
+        "titulo": "ESPESORES (mm):",
+        "contenido": "30/40"
+      },
+      {
+        "titulo": "USO:",
+        "contenido": "Cubiertas inclinadas y DECK"
+      }
+    ]
+  }
+]
