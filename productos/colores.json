@@ -1,0 +1,63 @@
+[
+  [
+    {
+      "color": "#000000",
+      "codigo": "0000",
+      "nombre": "negro dextar"
+    },
+    {
+      "color": "#f1f0f0",
+      "codigo": "1006",
+      "nombre": "blanco pirineo"
+    },
+    {
+      "color": "#e2ce99",
+      "codigo": "2000",
+      "nombre": "arena"
+    },
+    {
+      "color": "#e4e6d0",
+      "codigo": "2002",
+      "nombre": "crema bidasoa"
+    }
+  ],
+  [
+    {
+      "color": "#1d5b38",
+      "codigo": "3000",
+      "nombre": "verde navarra"
+    },
+    {
+      "color": "#1f4b7d",
+      "codigo": "4000",
+      "nombre": "azul lago"
+    },
+    {
+      "color": "#bbc8b7",
+      "codigo": "5001",
+      "nombre": "gris perla"
+    },
+    {
+      "color": "#e6e5e8",
+      "codigo": "9006",
+      "nombre": "silver metallic"
+    }
+  ],
+  [
+    {
+      "color": "#9c2b30",
+      "codigo": "7001",
+      "nombre": "rojo teja"
+    },
+    {
+      "color": "#4c1913",
+      "codigo": "7002",
+      "nombre": "rojo baztan"
+    },
+    {
+      "color": "#8b939c",
+      "codigo": "9007",
+      "nombre": "hiansa metallic"
+    }
+  ]
+]
