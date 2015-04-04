@@ -1,6 +1,6 @@
-node_modules
-dist
+node_modules/
+build/
 .tmp
 .sass-cache
-bower_components
+source/bower_components/
 .idea/

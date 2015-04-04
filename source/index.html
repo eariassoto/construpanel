@@ -11,11 +11,11 @@
 
     <title>ConstruPanel</title>
 
-    <!-- Bootstrap core CSS -->
+    <!-- build:css css/vendor.css -->
     <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet">
-    <!-- Font Awesome CSS -->
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='bower_components/open-sans-fontface/open-sans.css' rel='stylesheet'>
+    <!-- endbuild -->
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -23,14 +23,16 @@
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- Custom styles for this template -->
+    <!-- build:css css/app.css -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- endbuild -->
+
 </head>
 
 <body data-spy="scroll" data-target="#navbar-example">
 
 <!-- encabezado -->
-<header class="content-fluid header-img">
+<header class="header-img">
     <div class="container">
         <div class="row" id="inicio">
             <div class="col-md-12" id="logo">
@@ -40,7 +42,7 @@
         </div>
         <div class="row">
             <div id="eslogan" class="col-md-7 col-md-offset-3">
-                <div>
+                <div class="glass">
                     <h1 class="img">Eslogan o frase de la empresa lorem ipsum</h1>
                 </div>
             </div>
@@ -52,6 +54,7 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
+                <a class="navbar-brand" href="#">Construpanel</a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
@@ -89,18 +92,17 @@
 </div>
 
 <div class="container contenido">
-
     <section id="nosotros">
-        <hr class="divisor" style="margin: 40px 0 !important;">
+        <hr class="divisor">
         <div class="row">
             <div class="col-md-7 col-md-offset-3">
-                <h1 style="font-size: 30px;line-height: 40px;padding-top: 80px">
+                <h1 class="contenido-h1">
                     Construpanel es una empresa costarricense que consectetur adipiscing elit. Sed ac nibh nec tortor eleifend semper in eu lorem.
                 </h1>
             </div>
         </div>
 
-        <hr class="divisor" style="margin: 40px 0 !important;">
+        <hr class="divisor">
         <div class="row">
             <div class="col-lg-4">
                 <img class="img-circle"
@@ -165,7 +167,7 @@
                 <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod
                     semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus
                     commodo.</p>
-                <a class="btn btn-primary btn-lg" href="/productos" role="button">Ver productos »</a>
+                <a class="btn btn-primary btn-lg button" href="/productos" role="button">Ver productos »</a>
             </div>
         </div>
     </section>
@@ -184,56 +186,54 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-8">
-                        <form>
-                            <div class="form-group">
-                                <div class="col-xs-6">
-                                    <input class="contact-input contact-form" type="text" class="form-control" id="nombre" placeholder="Nombre">
-                                </div>
-                                <div class="col-xs-6">
-                                    <input class="contact-input contact-form" type="email" class="form-control" id="email" placeholder="Correo electrónico">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12 contact-div">
-                                    <input class="contact-input contact-form" type="text" class="form-control" id="asunto" placeholder="Asunto">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-xs-12 contact-div">
-                                    <textarea class="contact-textarea contact-form" id="message" placeholder="Mensaje" rows="6" style="resize: none; width: 100%"></textarea>
-                                    <button type="submit" class="btn btn-default" id="contact-button">Enviar</button>
-                                </div>
-                            </div>
-                        </form>
-
-                    </div>
                     <div class="col-md-4">
-                        <ul class="list-unstyled">
-                            <li style="font-size: 18px;margin-top: 1em">
-                                <i class="fa fa-home fa-1x" style="font-size: 20px"></i>
+                        <ul class="list-unstyled contact-list">
+                            <li>
+                                <i class="fa fa-home fa-1x"></i>
                                 1234 Calle 23 etc.<br>
                                 Alajuela, AP 00000<br>
                                 Costa Rica
                             </li>
-                            <li style="font-size: 18px;margin-top: 1em">
-                                <i class="fa fa-mobile fa-1x" style="font-size: 20px"></i>
+                            <li>
+                                <i class="fa fa-mobile fa-1x"></i>
                                 2222-5252
                             </li>
-                            <li style="font-size: 18px;margin-top: 1em">
-                                <i class="fa fa-envelope-o fa-1x" style="font-size: 20px"></i>
-                                <a href="#">info@mipagina.com</a>
+                            <li>
+                                <i class="fa fa-envelope-o fa-1x"></i>
+                                <a href="mailto:info@construpanelcr.com">info@construpanelcr.com</a>
                             </li>
                         </ul>
+                    </div>
+                    <div class="col-md-8">
+                        <h3>Déjanos un mensaje</h3>
+                        <form>
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <input class="contact-input contact-form" type="text" class="form-control" id="nombre" placeholder="Nombre">
+                                </div>
+                                <div class="col-sm-6">
+                                    <input class="contact-input contact-form" type="email" class="form-control" id="email" placeholder="Correo electrónico">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12 contact-div">
+                                    <input class="contact-input contact-form" type="text" class="form-control" id="asunto" placeholder="Asunto">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-sm-12 contact-div">
+                                    <textarea class="contact-textarea contact-form" id="message" placeholder="Mensaje" rows="6" style="resize: none; width: 100%"></textarea>
+                                    <button type="submit" class="btn btn-default button">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <hr class="divisor">
 </div>
 <hr class="divisor">
-
 <div class="footer">
     <div class="container">
         <div class="row">
@@ -248,56 +248,24 @@
     </div>
 </div>
 
+<svg xmlns="http://www.w3.org/2000/svg"  version="1.1">
+    <defs>
+        <filter id="blur">
+            <feGaussianBlur stdDeviation="5"/>
+        </filter>
+    </defs>
+</svg>
 
-<!-- Bootstrap core JavaScript -->
+<!-- build:js js/vendor.js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="bower_components/jquery-smooth-scroll/jquery.smooth-scroll.min.js"></script>
+<script src="js/holder.js"></script>
+<!-- endbuild -->
 
-
-<!-- Holder.js desarrollado por https://github.com/imsky/holder -->
-<script src="holder.js"></script>
-<script type="text/javascript">
-    $('nav').affix({
-        offset: {
-            top: $('header').height()
-        }
-    });
-    $(function () {
-        function stripTrailingSlash(str) {
-            if(str.substr(-1) == '/') {
-                return str.substr(0, str.length - 1);
-            }
-            return str;
-        }
-
-        var url = window.location.pathname;
-        var activePage = stripTrailingSlash(url);
-
-        $('.nav li a').click(function(){
-            var hrefActual = ($(this).attr('href'));
-            $('.li-nav a').each(function(){
-                if($(this).attr('href') == hrefActual){
-                    $(this).parent().addClass('active');
-                }
-                else{
-                    $(this).parent().removeClass('active');
-                }
-            });
-        });
-
-        $('.li-nav a').click(function () {
-            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
-                var target = $(this.hash);
-                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-                if (target.length) {
-                    $.smoothScroll({scrollTarget: "#"+target[0].id});
-                    return false;
-                }
-            }
-        });
-    });
-</script>
+<!-- build:js js/app.js -->
+<script src="js/script.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>
