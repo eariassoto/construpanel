@@ -1,17 +1,15 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
-
         clean: {
             build: {
                 src: ['build']
             }
         },
-
         useminPrepare: {
             html: "source/index.html",
             options: {
-                dest: "build"
+                dest: "build/"
             }
         },
         usemin: {
@@ -29,7 +27,8 @@ module.exports = function (grunt) {
                         src: ['**'],
                         dest: 'build/assets',
                         expand: true
-                    }, {
+                    },
+                    {
                         cwd: 'source/bower_components/font-awesome',
                         src: ['fonts/*'],
                         dest: 'build/',
@@ -85,9 +84,8 @@ module.exports = function (grunt) {
     );
 
     grunt.registerTask(
-        'default',
+        'serve',
         'Watches the project for changes, automatically builds them and runs a server.',
-        ['build', 'connect', 'watch']
+        ['connect', 'watch']
     );
-
 };

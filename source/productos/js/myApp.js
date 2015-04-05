@@ -3,10 +3,10 @@
 
     app.controller("productsCtrl", ['$scope', '$http', function($scope, $http) {
 
-        $http.get('./colores.json').success(function(data){
+        $http.get('../assets/data/colores.json').success(function(data){
             $scope.colores = data;
         });
-        $http.get('./productos.json').success(function(data){
+        $http.get('../assets/data/productos.json').success(function(data){
             $scope.productos = data;
         });
 

@@ -2,8 +2,8 @@
   {
     "nombre": "panel cub 2gr/3gr",
     "descripcion": "panel cubierta con tapajunta",
-    "imagen": "images/1.png",
-    "diagrama": "images/diagrama/1.png",
+    "imagen": "../assets/images/1.png",
+    "diagrama": "../assets/images/diagrama/1.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -35,8 +35,8 @@
   {
     "nombre": "panel agro 3gr",
     "descripcion": "panel cubierta con tapajunta de uso agrícola",
-    "imagen": "images/2.png",
-    "diagrama": "images/diagrama/2.png",
+    "imagen": "../assets/images/2.png",
+    "diagrama": "../assets/images/diagrama/2.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -68,8 +68,8 @@
   {
     "nombre": "bandeja ban 130.600",
     "descripcion": "bandeja autoportante",
-    "imagen": "images/3.png",
-    "diagrama": "images/diagrama/3.png",
+    "imagen": "../assets/images/3.png",
+    "diagrama": "../assets/images/diagrama/3.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -96,8 +96,8 @@
   {
     "nombre": "bandeja ban 90.380",
     "descripcion": "bandeja autoportante",
-    "imagen": "images/4.png",
-    "diagrama": "images/diagrama/4.png",
+    "imagen": "../assets/images/4.png",
+    "diagrama": "../assets/images/diagrama/4.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -124,8 +124,8 @@
   {
     "nombre": "mt - 56 deck",
     "descripcion": "cubierta deck",
-    "imagen": "images/5.png",
-    "diagrama": "images/diagrama/5.png",
+    "imagen": "../assets/images/5.png",
+    "diagrama": "../assets/images/diagrama/5.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -152,8 +152,8 @@
   {
     "nombre": "mt - 68 deck",
     "descripcion": "cubierta deck",
-    "imagen": "images/6.png",
-    "diagrama": "images/diagrama/6.png",
+    "imagen": "../assets/images/6.png",
+    "diagrama": "../assets/images/diagrama/6.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -180,8 +180,8 @@
   {
     "nombre": "panel fachada prf/sml/lis",
     "descripcion": "panel fachada",
-    "imagen": "images/7.png",
-    "diagrama": "images/diagrama/7.png",
+    "imagen": "../assets/images/7.png",
+    "diagrama": "../assets/images/diagrama/7.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR / INTERIOR:",
@@ -209,8 +209,8 @@
   {
     "nombre": "panel fachada modular 900-1000",
     "descripcion": "panel fachada",
-    "imagen": "images/8.png",
-    "diagrama": "images/diagrama/8.png",
+    "imagen": "../assets/images/8.png",
+    "diagrama": "../assets/images/diagrama/8.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -242,8 +242,8 @@
   {
     "nombre": "muro",
     "descripcion": "panel fachada",
-    "imagen": "images/9.png",
-    "diagrama": "images/diagrama/9.png",
+    "imagen": "../assets/images/9.png",
+    "diagrama": "../assets/images/diagrama/9.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -275,8 +275,8 @@
   {
     "nombre": "frigo",
     "descripcion": "panel frigorífico",
-    "imagen": "images/10.png",
-    "diagrama": "images/diagrama/10.png",
+    "imagen": "../assets/images/10.png",
+    "diagrama": "../assets/images/diagrama/10.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -308,8 +308,8 @@
   {
     "nombre": "panel teja",
     "descripcion": "panel de cubierta",
-    "imagen": "images/11.png",
-    "diagrama": "images/diagrama/11.png",
+    "imagen": "../assets/images/11.png",
+    "diagrama": "../assets/images/diagrama/11.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -349,7 +349,7 @@
   {
     "nombre": "policarbonato alveolar",
     "descripcion": "panel de iluminación",
-    "imagen": "images/12.png",
+    "imagen": "../assets/images/12.png",
     "col1": [
       {
         "titulo": "COMPOSICIÓN:",
@@ -373,8 +373,8 @@
   {
     "nombre": "policarbonato compacto",
     "descripcion": "lucernario",
-    "imagen": "images/13.png",
-    "diagrama": "images/diagrama/12.png",
+    "imagen": "../assets/images/13.png",
+    "diagrama": "../assets/images/diagrama/12.png",
     "col1": [
       {
         "titulo": "COMPOSICIÓN:",
@@ -406,8 +406,8 @@
   {
     "nombre": "mo - 18 minionda",
     "descripcion": "chapa perfilada minionda",
-    "imagen": "images/14.png",
-    "diagrama": "images/diagrama/13.png",
+    "imagen": "../assets/images/14.png",
+    "diagrama": "../assets/images/diagrama/13.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -434,8 +434,8 @@
   {
     "nombre": "mt - 32 / 32F",
     "descripcion": "chapa perfilada",
-    "imagen": "images/15.png",
-    "diagrama": "images/diagrama/14.png",
+    "imagen": "../assets/images/15.png",
+    "diagrama": "../assets/images/diagrama/14.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -465,8 +465,8 @@
   {
     "nombre": "mt - 42",
     "descripcion": "chapa perfilada",
-    "imagen": "images/16.png",
-    "diagrama": "images/diagrama/15.png",
+    "imagen": "../assets/images/16.png",
+    "diagrama": "../assets/images/diagrama/15.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -496,8 +496,8 @@
   {
     "nombre": "mt - 52",
     "descripcion": "chapa perfilada",
-    "imagen": "images/17.png",
-    "diagrama": "images/diagrama/16.png",
+    "imagen": "../assets/images/17.png",
+    "diagrama": "../assets/images/diagrama/16.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -527,8 +527,8 @@
   {
     "nombre": "mt - 44 ibiza",
     "descripcion": "fachada arquitectónica",
-    "imagen": "images/18.png",
-    "diagrama": "images/diagrama/17.png",
+    "imagen": "../assets/images/18.png",
+    "diagrama": "../assets/images/diagrama/17.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -555,8 +555,8 @@
   {
     "nombre": "forjado mt - 60",
     "descripcion": "forjado colaborante",
-    "imagen": "images/19.png",
-    "diagrama": "images/diagrama/18.png",
+    "imagen": "../assets/images/19.png",
+    "diagrama": "../assets/images/diagrama/18.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -580,8 +580,8 @@
   {
     "nombre": "forjado mt - 76",
     "descripcion": "forjado colaborante",
-    "imagen": "images/20.png",
-    "diagrama": "images/diagrama/19.png",
+    "imagen": "../assets/images/20.png",
+    "diagrama": "../assets/images/diagrama/19.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -605,8 +605,8 @@
   {
     "nombre": "forjado mt - 100",
     "descripcion": "forjado colaborante",
-    "imagen": "images/21.png",
-    "diagrama": "images/diagrama/20.png",
+    "imagen": "../assets/images/21.png",
+    "diagrama": "../assets/images/diagrama/20.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -630,8 +630,8 @@
   {
     "nombre": "easy cub 3gr/5gr",
     "descripcion": "panel cubierta sin tapajunta",
-    "imagen": "images/22.png",
-    "diagrama": "images/diagrama/21.png",
+    "imagen": "../assets/images/22.png",
+    "diagrama": "../assets/images/diagrama/21.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR:",
@@ -663,8 +663,8 @@
   {
     "nombre": "easy agro 3gr/5gr",
     "descripcion": "panel cubierta sin tapajuntas uso agrícola",
-    "imagen": "images/23.png",
-    "diagrama": "images/diagrama/22.png",
+    "imagen": "../assets/images/23.png",
+    "diagrama": "../assets/images/diagrama/22.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR",
@@ -696,8 +696,8 @@
   {
     "nombre": "easy alu 3gr/5gr",
     "descripcion": "panel cubierta sin tapajunta",
-    "imagen": "images/24.png",
-    "diagrama": "images/diagrama/23.png",
+    "imagen": "../assets/images/24.png",
+    "diagrama": "../assets/images/diagrama/23.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR:",
@@ -729,8 +729,8 @@
   {
     "nombre": "easy board 3gr/5gr",
     "descripcion": "panel cubierta sin tapajunta",
-    "imagen": "images/25.png",
-    "diagrama": "images/diagrama/24.png",
+    "imagen": "../assets/images/25.png",
+    "diagrama": "../assets/images/diagrama/24.png",
     "col1": [
       {
         "titulo": "CARA EXTERIOR:",
