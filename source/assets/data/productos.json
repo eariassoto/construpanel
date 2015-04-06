@@ -85,7 +85,7 @@
     "col2": [
       {
         "titulo": "ESPESORES (mm):",
-        "contenido": "30/40/50"
+        "contenido": "Desde 0.7 hasta 1,2"
       },
       {
         "titulo": "USO:",
@@ -268,7 +268,7 @@
       },
       {
         "titulo": "USO:",
-        "contenido": "Fachadas, casetas prefabricadas, falses techos, cámaras frigoríficas y sectorización"
+        "contenido": "Fachadas, casetas prefabricadas, falsos techos, cámaras frigoríficas y sectorización"
       }
     ]
   },
@@ -321,7 +321,7 @@
       },
       {
         "titulo": "ACABADO EXTERIOR COLOR:",
-        "contenido": "Albero evejecido, rojo teja, pizarra"
+        "contenido": "Albero envejecido, rojo teja, pizarra"
       },
       {
         "titulo": "ANCHO ÚTIL 1000mm"
@@ -389,10 +389,6 @@
       }
     ],
     "col2": [
-      {
-        "titulo": "AISLANTE:",
-        "contenido": "Poliuretano (PUR) y Poli-isocianurato (PIR)"
-      },
       {
         "titulo": "ESPESORES (mm):",
         "contenido": "1,0"
@@ -466,7 +462,7 @@
     "nombre": "mt - 42",
     "descripcion": "chapa perfilada",
     "imagen": "../assets/images/16.png",
-    "diagrama": "../assets/images/diagrama/15.png",
+    "diagrama": "../assets/images/diagrama/17.png",
     "col1": [
       {
         "titulo": "ACABADO:",
@@ -496,7 +492,7 @@
   {
     "nombre": "mt - 52",
     "descripcion": "chapa perfilada",
-    "imagen": "../assets/images/17.png",
+    "imagen": "../assets/images/15.png",
     "diagrama": "../assets/images/diagrama/16.png",
     "col1": [
       {

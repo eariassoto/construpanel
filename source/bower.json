@@ -18,7 +18,6 @@
     "bootstrap": "~3.3.4",
     "font-awesome": "~4.3.0",
     "open-sans-fontface": "~1.2.1",
-    "jquery-smooth-scroll": "~1.5.5",
     "angular": "~1.3.15"
   }
 }

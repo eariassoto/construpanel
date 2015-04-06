@@ -79,7 +79,8 @@ nav.affix {
 
  /* barra de busqueda */
 input.search-query {
-    padding:1em 1em 1em 26px;
+    height: 50px;
+    padding: 5px 5px 5px 26px;
 }
 form.form-search {
     padding-left: .25em;
@@ -195,10 +196,19 @@ form.form-search:before {
     .featurette-heading {
         font-size: 50px;
     }
+
+    .content-image{
+        width: 228px;
+        height: 171px;
+    }
 }
 
 @media (min-width: 992px) {
     .featurette-heading {
         margin-top: 30px;
+    }
+    .content-image{
+        width: 304px;
+        height: 228px;
     }
 }
