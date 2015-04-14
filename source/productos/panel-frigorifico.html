@@ -23,6 +23,7 @@
     <![endif]-->
     <!-- build:css css/style.css -->
     <link href="css/panel-frigo.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
     <!-- endbuild -->
 </head>
 <body>
@@ -77,8 +78,8 @@
     <!-- Static navbar -->
 
 </div>
-<div class="container" id="nav">
-    <nav class="navbar navbar-inverse">
+<div class="container">
+    <nav id="navbar-top" class="navbar navbar-inverse">
         <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
@@ -88,44 +89,43 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Project name</a>
+                <a class="navbar-brand" href="#">Construpanel</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown
-                            <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li class="dropdown-header">Nav header</li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
-                        </ul>
-                    </li>
+                <ul class="ul-navbar nav navbar-nav">
+                    <li class="li-nav active"><a href="#myCarousel">Inicio</a></li>
+                    <li class="li-nav"><a href="#nosotros">Nosotros</a></li>
+                    <li class="li-nav"><a href="#servicios">Servicios</a></li>
+                    <li class="li-nav"><a href="#productos">Productos</a></li>
+                    <li class="li-nav"><a href="#contacto">Contáctenos</a></li>
                 </ul>
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="./">Default <span class="sr-only">(current)</span></a></li>
-                    <li><a href="../navbar-static-top/">Static top</a></li>
-                    <li><a href="../navbar-fixed-top/">Fixed top</a></li>
+                <ul class="ul-navbar nav navbar-nav navbar-right">
+                    <li class="li-sn">
+                        <a href="https://www.facebook.com/eariassoto" target="_blank">
+                        <span class="fa-stack fa-lg">
+                          <i class="fa fa-circle-thin fa-stack-2x" ></i>
+                          <i class="fa fa-facebook fa-stack-1x"></i>
+                        </span>
+                        </a>
+                    </li>
+                    <li class="li-sn">
+                        <a href="https://twitter.com/probably_a_geek" target="_blank">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle-thin fa-stack-2x"></i>
+                      <i class="fa fa-twitter fa-stack-1x"></i>
+                    </span>
+                        </a></li>
                 </ul>
             </div>
-            <!--/.nav-collapse -->
         </div>
-        <!--/.container-fluid -->
     </nav>
 </div>
 
-<div class="container">
+
+<div class="main-content container">
     <div class="row">
         <div class="col-xs-12">
             <h3><strong>Introducción:</strong></h3>
-
             <p>
                 El presente siglo XXI propone un mundo sin fronteras, inmerso en una atmósfera de innovación, la
                 investigación científica orientada en busca de materiales revolucionarios y sus aplicaciones que cubran
@@ -167,14 +167,14 @@
                 agroalimentaria.
             </p>
 
-            <img class="img-responsive center-block" src="../assets/images/frigo/panel-1.jpg"
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-1.jpg"
                  alt="Generic placeholder image">
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <h4><strong>Funciones y ventajas del panel frigorífico:</strong></h4>
-            <ul class="list-unstyled">
+            <h3><strong>Funciones y ventajas del panel frigorífico:</strong></h3>
+            <ul class="list-unstyled lista">
                 <li>&bull;
                     Su altísima capacidad de aislamiento proporciona un gran ahorro económico durante toda la vida de la
                     instalación.
@@ -224,8 +224,8 @@
             </ul>
         </div>
         <div class="col-md-6">
-            <h4><strong>Características:</strong></h4>
-            <ul class="list-unstyled">
+            <h3><strong>Características:</strong></h3>
+            <ul class="list-unstyled lista">
                 <li>&bull;
                     Definidos por su espesor nominal lo que capacita al panel para su uso en diferentes temperaturas,
                     conservación, congelación o ultracongelación. Aumentando el espesor disminuimos el coeficiente de
@@ -263,10 +263,10 @@
     <div class="row">
         <div class="col-sm-12">
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered tabla">
                     <thead>
                     <tr>
-                        <th colspan="10">Especificaciones técnicas panel frigorífico hiansa</th>
+                        <th colspan="10" class="mayuscula">Especificaciones técnicas panel frigorífico hiansa</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -283,7 +283,7 @@
                         <td colspan="9">1.100</td>
                     </tr>
                     <tr>
-                        <th colspan="2">Espesor</th>
+                        <th>Espesor</th>
                         <td>60</td>
                         <td>80</td>
                         <td>100</td>
@@ -363,7 +363,7 @@
                     </tbody>
                 </table>
             </div>
-            <h4><strong>Formación del núcleo de espuma:</strong></h4>
+            <h3><strong>Formación del núcleo de espuma:</strong></h3>
 
             <p>
                 El núcleo aislante, que está formado por espuma de poliuretano (PUR) o de poliisocianurato (PIR), evita
@@ -378,7 +378,7 @@
                 por esta razón y por la baja conductividad del pentano, el panel de poliuretano así obtenido es el mejor
                 aislante térmico conocido.
             </p>
-            <h4><strong>Fabricación del panel frigorífico:</strong></h4>
+            <h3><strong>Fabricación del panel frigorífico:</strong></h3>
 
             <p>
                 Se trata de obtener unidades de montaje, de muy baja conductividad y gran resistencia mecánica.
@@ -389,10 +389,10 @@
             </p>
 
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered tabla">
                     <thead>
                     <tr>
-                        <th colspan="10">Peso del panel frigorífico hiansa</th>
+                        <th colspan="10" class="mayuscula">Peso del panel frigorífico hiansa</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -472,10 +472,10 @@
                 </table>
             </div>
 
-            <h4><strong>sobrecargas de uso para panel frigorífico (en Kg/m<sup>2</sup>) 1 vano (2 apoyos)</strong></h4>
+            <h3><strong class="mayuscula">Sobrecargas de uso para panel frigorífico</strong><strong> (en Kg/m<sup>2</sup>) 1 vano (2 apoyos)</strong></h3>
 
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered tabla">
                     <thead>
                     <tr>
                         <th rowspan="2">Espesor de panel (mm)</th>
@@ -661,11 +661,11 @@
                 </table>
             </div>
 
-            <h4><strong>sobrecargas de uso para panel frigorífico (en Kg/m<sup>2</sup>) 2 o más vanos (3 o más
-                apoyos)</strong></h4>
+            <h3><strong class="mayuscula">sobrecargas de uso para panel frigorífico</strong><strong> (en Kg/m<sup>2</sup>) 2 o más vanos (3 o más
+                apoyos)</strong></h3>
 
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered tabla">
                     <thead>
                     <tr>
                         <th rowspan="2">Espesor de panel (mm)</th>
@@ -825,10 +825,10 @@
             </div>
 
             <div class="table-responsive">
-                <table class="table table-bordered">
+                <table class="table table-bordered tabla">
                     <thead>
                     <tr>
-                        <th colspan="5">Peso del paquete embalado</th>
+                        <th colspan="5" class="mayuscula">Peso del paquete embalado</th>
                     </tr>
                     <tr>
                         <th>Espesor</th>
@@ -899,23 +899,23 @@
                 </table>
             </div>
 
-            <img class="img-responsive center-block" src="../assets/images/frigo/panel-2.jpg"
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-2.jpg"
                  alt="Generic placeholder image">
-            <img class="img-responsive center-block" src="../assets/images/frigo/panel-3.jpg"
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-3.jpg"
                  alt="Generic placeholder image">
-            <img class="img-responsive center-block" src="../assets/images/frigo/panel-4.jpg"
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-4.jpg"
                  alt="Generic placeholder image">
 
         </div>
     </div>
     <div class="row">
         <div class="col-md-6">
-            <h4><strong>Montaje de la instalación:</strong></h4>
+            <h3><strong>Montaje de la instalación:</strong></h3>
 
             <p>
                 Montaje de la instalación
                 El montaje de una instalación agroalimentaria debe estar presidido por 4 premisas fundamentales:
-            <ul class="list-unstyled">
+            <ul class="list-unstyled lista">
                 <li>&bull; Continuidad del aislamiento</li>
                 <li>&bull; Continuidad de la barrera de vapor</li>
                 <li>&bull; Rotura de puentes térmicos</li>
@@ -928,20 +928,28 @@
                 proporcional a la longitud e inversamente proporcional al espesor de los paneles. Las superficies de
                 apoyo en descarga de los paquetes deben ser regulares, horizontales, resguardados de la lluvia
                 evitándose su exposición solar prolongada.
-</p><p>
+            </p>
+
+            <p>
                 La planificación debe minimizar el trasiego manual del panel en la obra, disminuyendo así el riesgo de
                 daños en el material.
-            </p><p>
+            </p>
+
+            <p>
                 La extracción de un panel del seno del paquete debe ser realizada verticalmente hasta separarlo
                 completamente del panel sobre el que descansaba, sin arrastrarlo sobre él. Los paneles no son forjados
                 ni estructuras diseñadas para soportar o almacenar productos, su carga máxima admisible depende de su
                 longitud, espesor, tipo de perfilado, grosor del acero, y de los apoyos, su distancias, superficie y
                 número.
-            </p><p>
+            </p>
+
+            <p>
                 Los cortes, esquinas redondeadas y apertura de huecos deben ser realizados en obra. Si fuera necesario
                 practicar un acceso antes de recibir la puerta, se practicará un hueco que permita el paso de una
                 persona, practicando la apertura definitiva al montar la puerta.
-            </p><p>
+            </p>
+
+            <p>
                 Cuando los huecos sean inferiores a 2x2 metros deben instalarse los paneles completos practicándose la
                 apertura al instalar el correspondiente elementos de cierre.
                 La manipulación del panel tiene que efectuarse con las herramientas y el utillaje adecuado así como los
@@ -950,7 +958,485 @@
             </p>
         </div>
         <div class="col-md-6">
+            <p>
+                Herramientas de corte que calienten excesivamente la superficie del acero y pueda dañar la pintura, no
+                deben emplearse para cortar los paneles.
+            </p>
 
+            <p>
+                Para fijar puertas y ventanas en el panel, y para rellenar cualquier hueco practicado en su seno, se
+                recomienda el uso de espuma de poliuretano por sus propiedades de adherencia, debiendo dejarse al menos
+                1,5 cm para que la espuma expanda correctamente. Las superficies de contacto han de ser humedecidas
+                levemente para mejorar la fijación.
+            </p>
+
+            <p>
+                Se rellenarán con espuma de poliuretano las uniones verticales de esquina, los encuentros pared-techo y
+                las cavidades en chinos, omegas y perfiles auxiliares de montaje horizontal.
+            </p>
+
+            <p>
+                La junta del panel está diseñada para obtener la mejor unión entre unidades, por lo que no debe ser
+                inyectada con espuma pues no reporta ningún beneficio térmico y puede dificultar el montaje.
+            </p>
+
+            <p>
+                El sellado de la junta cuando proceda debe ser realizado mediante la aplicación de siliconas neutras con
+                fungicida.
+            </p>
+
+            <p>
+                Los remaches aumentan el contacto superficial con el acero mejorando la unión, siendo apropiados en
+                cámaras donde por depresiones y sobrepresiones las uniones son dinámicas como en las de congelación.
+                Mientras los tornillos autotaladrantes pueden emplearse para la fijación de elementos que requieran un
+                rápido desmontaje.
+            </p>
+
+            <p>
+                El film de protección debe retirarse tan pronto estén montados los paneles, su exposición a los
+                diferentes tipos de luz, en especial la solar aumentan las propiedades del adhesivo, lo que pueden
+                dificultar su posterior extracción.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-5.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h3><strong>Tipos de remates:</strong></h3>
+
+            <p>
+                Existen 6 tipos de remates de panel:
+            <ul class="list-unstyled lista">
+                <li>&bull; Remate U de suelo</li>
+                <li>&bull; Remate L interior de esquina</li>
+                <li>&bull; Remate L exterior de esquina</li>
+                <li>&bull; Remate plano tapajuntas</li>
+                <li>&bull; Remate Z de cambio de espesor</li>
+                <li>&bull; Remate bajo croquis</li>
+            </ul>
+            Estos remates son perfiles metálicos de acero galvanizado lacado blanco de 0,6 mm de grosor, y 3 metros de
+            longitud.
+            </p>
+            <h3><strong>Fijación de los paneles al suelo:</strong></h3>
+
+            <p>
+                La unión de un panel frigorífico al suelo puede realizarse:
+            <ul class="list-unstyled lista">
+                <li>1. En montaje superficial cuando el suelo ya está terminado</li>
+                <li>2. Empotrado sobre el suelo sin aislar</li>
+                <li>3. Empotrado en cámaras de congelación</li>
+            </ul>
+            En todos los casos se utilizará un remate de acero en forma de U, que realizará funciones de guía,
+            facilitando el correcto nivelado del panel, salvando las caídas y corrigiendo los defectos de la solera. Al
+            mismo tiempo sirve de fijación impidiendo el desplazamiento lateral garantizando la continuidad de la
+            barrera de vapor en la base de la instalación.
+
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h3><strong>Uniones de esquina:</strong></h3>
+
+            <p>La formación de una esquina de dos paneles frigoríficos debe realizarse utilizando dos tipos de
+                remates.</p>
+
+            <h3><strong>Remate interior L:</strong></h3>
+
+            <p>Salas con temperatura positiva:
+            </p>
+
+            <p>El ángulo interior a debe formarse empleando perfil cóncavo sanitario, en cumplimiento de las leyes
+                sanitarias que exigen la formación de encuentros redondeados.</p>
+
+            <p>El perfil sanitario está formado por dos piezas; el soporte, y el cuerpo cóncavo.
+            </p>
+
+            <p>El soporte será de aluminio proporcionar resistencia mecánica a la unión. El cuerpo cóncavo será de PVC
+                con labios flexibles en los extremos para evitar huecos en la unión. La longitud será de 4 metros para
+                facilitar su montaje.</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-6.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-7.jpg"
+                 alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-8.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-9.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h4><strong>Cámaras con temperatura negativa:</strong></h4>
+
+            <p>El ángulo interior a debe unirse empleando un remate L interior con un ángulo de 0 < a < 180. Las alas de
+                este remate deben ser simétricas con una longitud inferior a 75 mm, pues mayor superficie no aumentará
+                la
+                resistencia del conjunto y proporcionará un aspecto poco estético. Los cantos del remate deben estar
+                plegados hacia dentro al menos 15 mm para aumentar la rigidez del conjunto.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h4><strong>Remate exterior:</strong></h4>
+
+            <p>El ángulo exterior a será formado por un remate L exterior con un ángulo 180 < a < 360. El remate suele
+                tener
+                las alas asimétricas, estando el lado corto fijado al canto de un panel, mientras que el lado más largo
+                ocultará la espuma del panel de encuentro, al cual se fijará. El remate será de acero lacado blanco de
+                0,6
+                mm de espesor, con ambos cantos plegados al menos 15 mm, y con longitudes inferiores a 6 metros para
+                facilitar su manipulación.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-10.jpg"
+                 alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-13.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-11.jpg"
+                 alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-14.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-12.jpg"
+                 alt="Generic placeholder image">
+        </div>
+        <div class="col-md-6">
+            <h4><strong>Fijación de paredes y techos:</strong></h4>
+
+            <p>Puesto que los paneles que forman los techos son de análogas características a los que forman las
+                paredes, las uniones que se producen entre ambos son exactamente iguales a las analizadas en el apartado
+                anterior.
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h4><strong>Sustentación de techos:</strong></h4>
+
+            <p>Los paneles frigoríficos se diseñan para emplearse como techo de cámaras apoyándose sobre las paredes
+                exteriores y lo tabiques de separación de salas, siempre que cumplan medidas “autoportantes”.
+            </p>
+
+            <p>Cuando las dimensiones de la cámara excedan estas medidas, deben emplearse elementos auxiliares para la
+                suspensión de los paneles. Para corregir pequeñas flechas o aumentar ligeramente la capacidad de carga
+                del panel se utilizan tuercas y utillajes de nivelación. Comúnmente conocidos como chinos, son una
+                tuerca de acero inoxidable de métrica 10, exteriormente moldeada en PVC o Poliéster con forma cónica,
+                que aumenta la superficie de contacto con el acero del panel, rompe el puente térmico y aumenta la
+                resistencia del conjunto. Se coloca en la cara inferior del panel de techo acoplada mediante varilla de
+                acero a un cuerpo tensor u otros elementos de anclaje a estructura.
+            </p>
+
+            <p>Cuando los vanos son excesivamente largos los techos deben dividirse en unidades más pequeñas de panel,
+                de forma que cada una de ellas cumpla parámetros autoportantes. Para suspender estas unidades los
+                extremos del panel se apoyarán en una estructura auxiliar fabricada en aluminio, lacado en blanco
+                comúnmente conocida como perfil Omega.
+            </p>
+
+            <p>
+                Estos perfiles se suspenden de la estructura principal de la nave y permiten el montaje de techos en
+                salas de grandes dimensiones. Su resistencia mecánica permite además trabajar con unidades de 6 metros
+                de longitud. Para dar continuidad a la barrera de vapor exterior, debe emplearse un remate de acero
+                plano de 0,6 mm con los cantos plegados, que será colocado en la parte superior de la junta que queda
+                entre 2 tramos de panel, que apoyan en la omega.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-15.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-16.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-17.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h4><strong>Instalaciones particulares:</strong></h4>
+
+            <h4><strong>Cámaras y túneles de congelación:</strong></h4>
+
+            <p>Se debe emplear especial cuidado en romper todos los puentes térmicos. Debe siliconarse externamente para
+                asegurar la continuidad de barrera de vapor pues a su paso seguirá su condensación y rápida congelación
+                lo que provocará la nulidad de las hipótesis de cálculo del aislamiento, incrementando los costes
+                energéticos, y en particular puede dañar irreversiblemente las soleras. El suelo de una cámara de
+                congelación debe ser aislado térmica e higrométricamente.</p>
+
+            <p>Se debe practicar un vaciado sanitario para permitir la ventilación inferior del suelo, que evacuará de
+                manera natural la humedad. Sobre él se debe realizar una solera de limpieza de al menos 5 cm, que
+                permita el trasiego de personal y medio mecánicos ligeros. Encima se instalará cartón de tipo alveolar
+                que absorba las irregularidades de la capa anterior. Apoyado en el cartón se colocará una barrera de
+                vapor formada por materiales asfálticos garantizando su continuidad mediante solape y soldado.
+            </p>
+
+            <p>Una vez formada la barrera de vapor se instalará el aislamiento térmico con núcleo de espuma de
+                poliuretano de 42 Kg/m3 de densidad. Debe emplearse 2 capas de aislante desnudo colocadas a mata juntas.
+                Una nueva barrera de vapor esta vez de polietileno de 600 galgas coronará el conjunto aislante. La
+                solera definitiva debe ser instalada encima, sin dejar huecos. Las paredes del panel han de ser
+                embutidas en el suelo hasta alcanzar la solera de limpieza. El extremo inferior del panel llevará
+                retirada la chapa para romper el puente térmico, buscando el aislamiento de suelo.
+            </p>
+
+            <p>Cuando no pueda ser realizado un vaciado sanitario este puede ser sustituido por calefactado del suelo
+                mediante resistencia eléctrica o conductos con glicol.
+            </p>
+
+            <h4><strong>Cámaras de atmósfera controlada:</strong></h4>
+
+            <p>En este tipo de cámaras además del control de temperatura y humedad, debe ser controlado el nivel de los
+                diferentes gases que componen su atmósfera. Muy extendido en cámaras de frutas, se establece un ambiente
+                reducido de oxígeno para controlar la respiración del producto, retardando su maduración y
+                degradación.</p>
+
+            <p>Bien por adición de unos gases o mediante la absorción de otros se consiguen obtener las condiciones de
+                diseño, siendo importantísima la estanqueidad de las cámaras</p>
+
+            <p>El parámetro fundamental ha de ser conseguir un perfecto sellado de las uniones tanto interior como
+                exteriormente. Esto debe obtenerse aplicando silicona con fungicida durante el montaje de la cámara.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-18.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-19.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-20.jpg"
+                 alt="Generic placeholder image">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-21.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                    <th colspan="6">sector primario</th>
+                    </thead>
+                    <thead>
+                    <th colspan="2">agrícola</th>
+                    <th colspan="3">ganadero</th>
+                    <th colspan="1">pesca</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Túneles compostaje</td>
+                        <td>Graneros</td>
+                        <td>Granjas ovino, bovino</td>
+                        <td>Naves agrícolas</td>
+                        <td>Granjas porcinas</td>
+                        <td>Buques pesqueros</td>
+                    </tr>
+                    <tr>
+                        <td>Invernaderos</td>
+                        <td>Silos de harina</td>
+                        <td>Explotación artesanal</td>
+                        <td>Huevos</td>
+                        <td>Cunícolas</td>
+                        <td>Cámaras de conservación</td>
+                    </tr>
+                    <tr>
+                        <td>Mielería</td>
+                        <td>Almacén frutas y flores</td>
+                        <td>Salas de despiece</td>
+                        <td>Pollos, patos</td>
+                        <td>C. Despojos</td>
+                        <td>Precámaras</td>
+                    </tr>
+                    <tr>
+                        <td>Cooperativa verdura</td>
+                        <td>Atmósfera controlada</td>
+                        <td></td>
+                        <td>Mataderos</td>
+                        <td></td>
+                        <td>Muelles de carga</td>
+                    </tr>
+                    </tbody>
+                    <thead>
+                    <th colspan="6">transporte camiones y contenedores frigoríficos, cámaras en buqes, aviones y
+                        trenes
+                    </th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Verduras deshidratadas</td>
+                        <td>Panificadoras</td>
+                        <td>Industria lechera</td>
+                        <td>Elaboración paté</td>
+                        <td>Industria peletera</td>
+                        <td>Derivados</td>
+                    </tr>
+                    <tr>
+                        <td>Bodegas vino</td>
+                        <td>Fermentación masa</td>
+                        <td>Fermentos yogurt</td>
+                        <td>Foiegras</td>
+                        <td>Zona de salado</td>
+                        <td>Túneles de congelación</td>
+                    </tr>
+                    <tr>
+                        <td>Almazara de aceite</td>
+                        <td>Repostería industrial</td>
+                        <td>Derivados lácteos</td>
+                        <td>Jamón</td>
+                        <td>Secaderos y Bodegas</td>
+                        <td>Zonas de salazón</td>
+                    </tr>
+                    <tr>
+                        <td>Productoras de zumos</td>
+                        <td>Producciones Pasta</td>
+                        <td>Quesería Industrial</td>
+                        <td>Huevo deshidratado</td>
+                        <td>Obradores</td>
+                        <td>Secaderos de bacalao</td>
+                    </tr>
+                    <tr>
+                        <td>Golosinas</td>
+                        <td>Aperitivos</td>
+                        <td>Heladería</td>
+                        <td>Salas blancas</td>
+                        <td>Sala loncheado</td>
+                        <td>Salas de manipulación</td>
+                    </tr>
+                    </tbody>
+                    <thead>
+                    <tr>
+                        <th colspan="6">productos congelados</th>
+                    </tr>
+                    <tr>
+                        <th colspan="6">productos precocinados</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>Verduras congeladas</td>
+                        <td>Pan congelado</td>
+                        <td>Hielo</td>
+                        <td>Preparados cárnicos</td>
+                        <td>Carne congelada</td>
+                        <td>Cámaras de congelación</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Centros logísticos</td>
+                        <td colspan="2">Mercados centrales</td>
+                        <td colspan="2">Plataformas de compra</td>
+                    </tr>
+                    <tr>
+                        <td>Hoteles</td>
+                        <td>Restaurantes</td>
+                        <td>Abastos</td>
+                        <td>Minoristas</td>
+                        <td>Supermercados</td>
+                        <td>Hipermercados</td>
+                    </tr>
+                    </tbody>
+                    <thead>
+                    <th colspan="6">salud, investigación y ocio</th>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td colspan="3">Piensos para alimentación animal</td>
+                        <td colspan="3">Compostaje substrato micelios</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Hospitales, Bancos órganos, Bancos de sangre, morgues</td>
+                        <td colspan="3">Almacenes farmacéuticos, cosméticas, laboratorios, celdas de cultivo</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">Salas de Producción de Displays y componentes digitales</td>
+                        <td colspan="3">Pistas permanentes de nieve e itinerantes de hielo</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-22.jpg"
+                 alt="Generic placeholder image">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <h4><strong>Puesta en marcha</strong></h4>
+            <h4><strong>Cámara conservación:</strong></h4>
+
+            <p>Las salas deben carecer de rincones en los que pueda almacenar suciedad, inaccesibles o difíciles de
+                limpiar. Todas las esquinas y los rincones serán redondeados mediante acabado sanitario.</p>
+
+            <p>Serán instaladas válvulas de equilibrado de presión junto a las puertas estancas. En ciclos de apertura
+                de puertas altos, deben instalarse cortinas de lamas o cortinas de aire, para impedir el intercambio de
+                masas de aire y su correspondiente gasto energético.
+            </p>
+
+            <p>Para la seguridad del personal la instalación debe disponer de alarmas, y sistemas antipánico. Si fuera
+                imprescindible el uso de cerraduras deben ser homologadas. Los sistemas de iluminación solo deben
+                proporcionarla cuando exista personal en la cámara, pues aumentan la temperatura interior, exigiendo
+                mayor aporte de frigorías. Debe disponerse de un sistema de renovación de aire según las necesidades de
+                su instalación.</p>
+            <h4><strong>Atmósfera controlada:</strong></h4>
+
+            <p>Reducir el nivel de oxígeno desde un 21% hasta el 4% debe realizarse en un periodo de entre 10 a 48 horas
+                dependiendo del volumen y producto almacenado.</p>
+        </div>
+        <div class="col-md-6">
+            <h4><strong></strong>Cámara de congelación:</h4>
+
+            <p>El suelo debe estar convenientemente aislado y aireado para evitar su congelación. Las puertas llevarán
+                en su marco sistemas calefactantes que eviten la congelación e impidan la apertura y cierre. Debe
+                tenerse especial precacución en la eliminación de puentes térmicos, todos los pilares interiores deben
+                cajearse. No deben emplearse materiales de poco espesor para renovar una cámara existente dejando aire
+                entre ambas. Dos paneles de 50 mm. no equivalen a uno de 100 mm.</p>
+
+            <p>La puesta en marcha ha de efectuarse con las válvulas de equilibrado de presión conectadas, y las puertas
+                abiertas.</p>
+
+            <p>De 0&deg; hasta -30&deg; debe bajarse la temperatura a un ritmo no superior a 5&deg; cada 12 horas hasta
+                alcanzar la temperatura de régimen.</p>
+            <h4><strong>Mantenimiento y limpieza de la instalación:</strong></h4>
+
+            <p>Los paneles han sido diseñados para soportar altos ciclos de limpieza, que han de efectuarse siguiendo
+                las normas siguientes:
+            <ul class="list-unstyled">
+                <li>1. Pueden emplearse mangueras a presión.</li>
+                <li>2. Los detergentes deben ser biodegradables, no orgánicos ni abrasivos.</li>
+                <li>3. El aclarado se realizará rociando abundantemente con agua fría, incidiendo en las esquinas y la
+                    parte inferior de las paredes.
+                </li>
+                <li>4. Los materiales de recubrimiento deben limpiarse sin usar estropajos y otros útiles que puedan
+                    rayar la superficie sanitaria.
+                </li>
+            </ul>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-12">
+            <img class="img-responsive img-gde center-block" src="../assets/images/frigo/panel-23.jpg"
+                 alt="Generic placeholder image">
         </div>
     </div>
 </div>

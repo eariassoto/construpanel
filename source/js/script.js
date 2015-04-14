@@ -1,9 +1,9 @@
 
 $(function () {
 
-    $('nav').affix({
+    $('#nav').affix({
         offset: {
-            top: $('header').height()
+            top: $('#myCarousel').height()
         }
     });
     $('.nav li a').click(function(){
@@ -21,12 +21,6 @@ $(function () {
     $('.li-nav a').click(function (e) {
         e.preventDefault();
         var hash = this.hash;
-        if($( "#navbar-top" ).hasClass( "affix" )){
-            var offset = $(hash).offset().top;
-        }else{
-            var offset = $(hash).offset().top-71;
-        }
-        console.log("abc",$(hash).offset().top);
         $('html, body').animate({
             scrollTop: offset
         }, 300, function(){
