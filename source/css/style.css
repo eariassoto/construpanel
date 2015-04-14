@@ -58,14 +58,6 @@
   font-size: 18px
 }
 
-.button{
-  border-radius: 0;
-  margin-top: 0.5em;
-  font-size: 18px;
-  background-color: #222;
-  color: white;
-}
-
 .contact-list li{
   font-size: 18px;
   margin-top: 1em;

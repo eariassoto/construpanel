@@ -21,6 +21,11 @@ $(function () {
     $('.li-nav a').click(function (e) {
         e.preventDefault();
         var hash = this.hash;
+        if($( "#nav" ).hasClass( "affix" )){
+            var offset = $(hash).offset().top;
+        }else{
+            var offset = $(hash).offset().top-72;
+        }
         $('html, body').animate({
             scrollTop: offset
         }, 300, function(){

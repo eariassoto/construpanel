@@ -23,25 +23,65 @@
     <![endif]-->
     <!-- build:css css/style.css -->
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
     <!-- endbuild -->
     <!-- build:js js/angular.js -->
     <script src="../bower_components/angular/angular.js"></script>
     <!-- endbuild -->
 </head>
 <body>
-<header class="content-fluid header-img">
-    <div class="container">
-        <div class="row" id="inicio">
-            <div class="col-md-12" id="logo">
-                <i class="fa fa-connectdevelop img"></i>
-                <p class="img">construpanel</p>
+
+<div class="container">
+    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- Carousel items -->
+        <div class="carousel-inner">
+            <div class="active item">
+                <h2>Slide 1</h2>
+
+                <div class="carousel-caption">
+                    <h3>First slide label</h3>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 2</h2>
+
+                <div class="carousel-caption">
+                    <h3>Second slide label</h3>
+
+                    <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                </div>
+            </div>
+            <div class="item">
+                <h2>Slide 3</h2>
+
+                <div class="carousel-caption">
+                    <h3>Third slide label</h3>
+
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                </div>
             </div>
         </div>
+        <!-- Carousel nav -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
-</header>
 
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container">
+</div>
+<div class="container">
+    <nav id="navbar-top" class="navbar navbar-inverse">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
                         aria-expanded="false" aria-controls="navbar">
@@ -50,14 +90,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+                <a class="navbar-brand" href="#">Construpanel</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
-                <ul id="ul-navbar" class="nav navbar-nav navbar-center">
-                    <li class="li-nav active"><a href="../#inicio">Inicio</a></li>
-                    <li class="li-nav"><a href="../#nosotros">Nosotros</a></li>
-                    <li class="li-nav"><a href="../#servicios">Servicios</a></li>
-                    <li class="li-nav"><a href="#">Productos</a></li>
-                    <li class="li-nav"><a href="../#contacto">Contáctenos</a></li>
+                <ul class="ul-navbar nav navbar-nav">
+                    <li class="li-nav"><a href="#myCarousel">Inicio</a></li>
+                    <li class="li-nav"><a href="#nosotros">Nosotros</a></li>
+                    <li class="li-nav"><a href="#servicios">Servicios</a></li>
+                    <li class="li-nav active"><a href="#productos">Productos</a></li>
+                    <li class="li-nav"><a href="#contacto">Contáctenos</a></li>
+                </ul>
+                <ul class="ul-navbar nav navbar-nav navbar-right">
                     <li class="li-sn">
                         <a href="https://www.facebook.com/eariassoto" target="_blank">
                         <span class="fa-stack fa-lg">
@@ -77,25 +120,21 @@
             </div>
         </div>
     </nav>
+</div>
 
 
 <div class="container" ng-controller="productsCtrl">
     <h1>Productos destacados</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero semper risus euismod vestibulum. Phasellus at aliquet sem. Vestibulum luctus nibh neque, in fringilla dolor varius a. Nam eu erat at felis faucibus aliquam sed ac augue. Donec eu nunc ut magna dignissim faucibus a vel turpis. In nec massa sed diam feugiat bibendum. Proin sagittis consequat nulla. Ut pulvinar, est eu condimentum congue, purus neque molestie turpis, sed mattis massa enim ut felis. Morbi dui orci, egestas ut efficitur eget, porta vel dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi mi risus, egestas in arcu non, ornare facilisis lorem. Nam vel metus non nisl mollis sollicitudin ac nec sapien.
-    </p>
     <div class="row">
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-7">
-                    <img class="img-responsive center-block" data-src="holder.js/311x311/text:imagen/#aaa:#fff"
+                    <img class="img-responsive center-block" src="../assets/images/frigo/panel-1.jpg"
                          alt="Generic placeholder image">
                 </div>
                 <div class="col-md-5">
-                    <h2 class="featurette-heading">Titulo grande.</h2>
-
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis
-                        euismod
-                        semper.</p>
+                    <h2 class="featurette-heading">Panel frigorífico.</h2>
+                    <a class="btn btn-primary btn-lg button" href="/productos/panel-frigorifico.html" role="button">Ver más »</a>
                 </div>
             </div>
         </div>
@@ -121,8 +160,6 @@
     <div class="row">
         <div class="col-lg-12">
             <h1>Paneles</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at libero semper risus euismod vestibulum. Phasellus at aliquet sem. Vestibulum luctus nibh neque, in fringilla dolor varius a. Nam eu erat at felis faucibus aliquam sed ac augue. Donec eu nunc ut magna dignissim faucibus a vel turpis. In nec massa sed diam feugiat bibendum. Proin sagittis consequat nulla. Ut pulvinar, est eu condimentum congue, purus neque molestie turpis, sed mattis massa enim ut felis. Morbi dui orci, egestas ut efficitur eget, porta vel dolor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi mi risus, egestas in arcu non, ornare facilisis lorem. Nam vel metus non nisl mollis sollicitudin ac nec sapien.
-            </p>
             <div class="div-content">
                 <form class="form-search form-inline">
                     <input type="text" class="form-control search-query" placeholder="Buscar" ng-model="query"/>

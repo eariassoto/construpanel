@@ -205,7 +205,8 @@ form.form-search:before {
 
 @media (min-width: 992px) {
     .featurette-heading {
-        margin-top: 30px;
+        margin-top: 10px!important;
+        padding-top: 10px!important;
     }
     .content-image{
         width: 304px;
