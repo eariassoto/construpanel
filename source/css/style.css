@@ -31,9 +31,7 @@
   padding-top: 30px;
 }
 
-.divisor {
-  margin: 20px 0;
-}
+
 
 .featurette-heading {
   font-weight: 300;
@@ -209,6 +207,7 @@
     font-size: 3em;
     line-height: 40px;
     padding-top: 0;
+    margin-top: 40px;
   }
 
   .divisor {
