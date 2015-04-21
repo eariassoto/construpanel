@@ -49,10 +49,27 @@ h2{
 
 .navbar{
     border-radius: 0 !important;
-    background-color: #961131;
-    border-color: #790923;
+    border-color: #961131;
+    background-color: #790923;
 }
 
+.button{
+    border-radius: 0;
+    margin-top: 0.5em;
+    font-size: 18px;
+    background-color: #790923;
+    border: none;
+    color: white !important;
+}
+.button:visited{
+    background-color: #961131;
+}
+.button:active{
+    background-color: #961131;
+}
+.button:hover{
+    background-color: #961131;
+}
 .li-nav a{
     color: white!important;
 }
@@ -61,11 +78,11 @@ h2{
 }
 
 .active > a{
-    background-color: #790923!important;
+    background-color: #961131!important;
 }
 
 .active > a:focus{
-    background-color: #790923!important;
+    background-color: #961131!important;
 }
 
 .ul-navbar li{

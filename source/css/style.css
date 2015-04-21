@@ -62,6 +62,7 @@
 }
 
 .contact-list li i{
+  color: #790923;
   font-size: 20px;
 }
 
@@ -79,7 +80,7 @@
 .contact-form{
   font-size: 18px;
   border-radius:0;
-  background:rgba(144, 144, 144, 0.15);
+  background:rgba(121, 9, 47, 0.15);
   color:#6f7577;
   border: none;
 }
@@ -184,7 +185,7 @@
 @media (min-width: 992px) {
 
   .featurette-heading {
-    margin-top: 120px;
+    margin-top: 60px;
   }
 
   #eslogan{
