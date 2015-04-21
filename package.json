@@ -4,16 +4,35 @@
   "author": "Landon Schropp (http://landonschropp.com)",
   "dependencies": {
     "grunt": "0.x.x",
-    "grunt-contrib-clean": "0.5.x",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-concat": "^0.5.1",
     "grunt-contrib-connect": "~0.4.2",
-    "grunt-contrib-copy": "0.4.x",
-    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-copy": "^0.4.1",
+    "grunt-contrib-cssmin": "^0.6.2",
     "grunt-contrib-jshint": "0.6.x",
-    "grunt-contrib-uglify": "~0.2.7",
+    "grunt-contrib-uglify": "^0.2.7",
     "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-concat": "~0.5.1",
     "grunt-usemin": "~3.0.0",
     "http-server": "~0.8.0"
   },
-  "engine": "node >= 0.10"
+  "engine": "node >= 0.10",
+  "version": "1.0.0",
+  "main": "Gruntfile0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eariassoto/construpanel"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eariassoto/construpanel/issues"
+  },
+  "homepage": "https://github.com/eariassoto/construpanel",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "install": "^0.1.8",
+    "npm": "^2.7.6"
+  }
 }

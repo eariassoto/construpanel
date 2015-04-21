@@ -21,19 +21,12 @@ body {
 
 /*carousel*/
 
-.carousel-caption p{
-    text-align: center;
-}
-
-.carousel-caption h3{
-    text-align: center;
-}
-
-.item h2{
+h2{
     margin: 0;
     color: #666;
-    padding-top: 90px;
+    padding-top: 30px;
     font-size: 52px;
+    color: #790923!important;
 }
 
 .item{
@@ -56,27 +49,32 @@ body {
 
 .navbar{
     border-radius: 0 !important;
+    background-color: #961131;
+    border-color: #790923;
+}
+
+.li-nav a{
+    color: white!important;
+}
+.navbar-brand{
+    color: white!important;
+}
+
+.active > a{
+    background-color: #790923!important;
+}
+
+.active > a:focus{
+    background-color: #790923!important;
 }
 
 .ul-navbar li{
-    font-size: 16px;
+    font-size: 20px;
 }
 .li-sn{
     font-size: 14px !important;
 }
 .li-sn a{
     padding: 7px 0 0 3px !important;
-}
-
-
-.button{
-    border-radius: 0;
-    margin-top: 0.5em;
-    font-size: 18px;
-    background-color: #222;
-    color: white;
-}
-
-.divisor {
-  margin: 20px 0;
+    color: white!important;
 }
