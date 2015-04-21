@@ -3,7 +3,7 @@ $(function () {
 
     $('#nav').affix({
         offset: {
-            top: $('#myCarousel').height()
+            top: $('#inicio').height()
         }
     });
     $('.nav li a').click(function(){

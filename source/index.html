@@ -32,49 +32,47 @@
 <body data-spy="scroll">
 
 <!-- encabezado -->
-<div class="container" id="inicio">
-    <div id="myCarousel" class="carousel slide" data-interval="3000" data-ride="carousel">
+<div class="container">
+    <div id="inicio" class="carousel slide" data-interval="30000" data-ride="carousel">
         <!-- Carousel indicators -->
         <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#inicio" data-slide-to="0" class="active"></li>
+            <li data-target="#inicio" data-slide-to="1"></li>
+            <li data-target="#inicio" data-slide-to="2"></li>
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner">
-            <div class="active item">
-                <h2>Slide 1</h2>
-
+            <div class="active item" id="item1">
                 <div class="carousel-caption">
-                    <h3>First slide label</h3>
+                    <h2>Panel frigorífico</h2>
 
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
+                        más información.</p>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-frigorifico.html" role="button">Más info »</a>
                 </div>
             </div>
-            <div class="item">
-                <h2>Slide 2</h2>
-
+            <div class="item" id="item2">
                 <div class="carousel-caption">
-                    <h3>Second slide label</h3>
-
-                    <p>Aliquam sit amet gravida nibh, facilisis gravida odio.</p>
+                    <h2>Panel cubierta</h2>
+                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
+                        más información.</p>
+                    <a class="btn btn-primary btn-md button" href="/productos" role="button">Más info »</a>
                 </div>
             </div>
-            <div class="item">
-                <h2>Slide 3</h2>
-
+            <div class="item" id="item3">
                 <div class="carousel-caption">
-                    <h3>Third slide label</h3>
-
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <h2>Panel fachada</h2>
+                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
+                        más información.</p>
+                    <a class="btn btn-primary btn-md button" href="/productos" role="button">Más info »</a>
                 </div>
             </div>
         </div>
         <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+        <a class="carousel-control left" href="#inicio" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+        <a class="carousel-control right" href="#inicio" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
@@ -82,6 +80,7 @@
     <!-- Static navbar -->
 
 </div>
+
 <div class="container" id="nav">
     <nav id="navbar-top" class="navbar navbar-inverse">
         <div class="container-fluid">
@@ -97,7 +96,7 @@
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="ul-navbar nav navbar-nav">
-                    <li class="li-nav active"><a href="#myCarousel">Inicio</a></li>
+                    <li class="li-nav active"><a href="#inicio">Inicio</a></li>
                     <li class="li-nav"><a href="#nosotros">Nosotros</a></li>
                     <li class="li-nav"><a href="#servicios">Servicios</a></li>
                     <li class="li-nav"><a href="#productos">Productos</a></li>
@@ -198,7 +197,7 @@
         <hr class="divisor">
         <div class="row">
             <div class="col-md-5">
-                <img class="img-responsive center-block" data-src="holder.js/500x500/text:imagen/#aaa:#fff"
+                <img class="img-responsive center-block" src="../assets/images/cub2.jpg"
                      alt="Generic placeholder image">
             </div>
             <div class="col-md-7">

@@ -1,7 +1,8 @@
-.main-content{
-    padding-right: 50px;
-    padding-left: 50px;
+h2{
+    font-size: 38px!important;
+    color: #790923;
 }
+
 p{
     text-align: justify;
     font-size: 18px;
@@ -14,14 +15,14 @@ p{
 
 .lista li{
     text-align: justify;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .tabla{
     font-size: 14px;
 }
 .tabla th{
-    background-color: #222;
+    background-color: #790923;
     color: #ffffff;
     text-align: center;
 }
@@ -30,4 +31,25 @@ p{
 }
 .mayuscula{
     text-transform: uppercase;
+}
+
+.carousel-caption{
+    left: 0 !important;
+    right: auto!important;
+    text-align: left;
+    padding-bottom: 0!important;
+}
+
+.carousel-caption h2{
+    color: #790923;
+    font-size: 60px!important;
+}
+
+.carousel-caption p{
+    color: #000000;
+    font-size: 18px;
+    max-width: 550px;
+}
+.carousel-control{
+    visibility: hidden!important;
 }

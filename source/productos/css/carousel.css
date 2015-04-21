@@ -83,7 +83,7 @@ form.form-search:before {
 }
 
 .content-section-title{
-    border-bottom: 5px solid #222;
+    border-bottom: 5px solid #790923;
 }
 
 .content-section .description{
@@ -100,6 +100,42 @@ form.form-search:before {
     font-size: 18px;
 }
 
+.carousel-caption{
+    left: 5% !important;
+    right: auto!important;
+    text-align: left;
+    padding-bottom: 0!important;
+}
+
+.carousel-caption h2{
+    color: #790923;
+    font-size: 42px!important;
+}
+
+.carousel-caption p{
+    color: #000000;
+    font-size: 18px!important;
+    max-width: 550px;
+}
+
+#item1{
+    background-image: url("../../assets/banner1.jpg") !important;
+}
+#item2{
+    background-image: url("../../assets/banner2.jpg") !important;
+}
+#item3{
+    background-image: url("../../assets/banner3.jpg") !important;
+}
+
+h1{
+    color: #790923!important;
+}
+
+
+.content-section-title .left{
+    background-color: #790923!important;
+}
 /* fin panel de productos */
 
 /* RESPONSIVE CSS
@@ -122,13 +158,6 @@ form.form-search:before {
     /* The navbar becomes detached from the top, so we round the corners */
     .navbar-wrapper .navbar {
         border-radius: 4px;
-    }
-
-    /* Bump up size of carousel content */
-    .carousel-caption p {
-        margin-bottom: 20px;
-        font-size: 21px;
-        line-height: 1.4;
     }
 
     .featurette-heading {

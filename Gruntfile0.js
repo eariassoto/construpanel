@@ -34,6 +34,12 @@ module.exports = function (grunt) {
                         dest: 'build/',
                         expand: true
                     },
+					{
+                        cwd: 'source/bower_components/bootstrap',
+                        src: ['fonts/*'],
+                        dest: 'build/',
+                        expand: true
+                    },
                     {
                         cwd: 'source/bower_components/open-sans-fontface',
                         src: ['fonts/**/*'],
