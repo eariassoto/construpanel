@@ -53,3 +53,13 @@ p{
 .carousel-control{
     visibility: hidden!important;
 }
+
+#item1{
+     background-image: url("../../assets/banner1.jpg");
+ }
+#item2{
+    background-image: url("../../assets/banner2.jpg");
+}
+#item3{
+    background-image: url("../../assets/banner3.jpg");
+}
