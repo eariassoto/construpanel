@@ -16,6 +16,7 @@
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='bower_components/open-sans-fontface/open-sans.css' rel='stylesheet'>
     <!-- endbuild -->
+    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -39,6 +40,7 @@
             <li data-target="#inicio" data-slide-to="0" class="active"></li>
             <li data-target="#inicio" data-slide-to="1"></li>
             <li data-target="#inicio" data-slide-to="2"></li>
+            <li data-target="#inicio" data-slide-to="3"></li>
         </ol>
         <!-- Carousel items -->
         <div class="carousel-inner">
@@ -58,6 +60,12 @@
                 <div class="carousel-caption">
                     <h2>Panel fachada</h2>
                     <a class="btn btn-primary btn-md button" href="/productos/panel-fachada.html" role="button">Más info »</a>
+                </div>
+            </div>
+            <div class="item" id="item4">
+                <div class="carousel-caption">
+                    <h2>Panel Phire</h2>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-phire.html" role="button">Más info »</a>
                 </div>
             </div>
         </div>
@@ -85,7 +93,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Construpanel</a>
+                <a class="navbar-brand" href="#inicio">Construpanel</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="ul-navbar nav navbar-nav">
@@ -259,20 +267,17 @@
     </section>
 </div>
 
-
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">© 2015 Construpanel. Todos los derechos reservados.</p>
+        <div>
+            <ul class="f32">
+                <li class="flag cr"></li>
+                <li class="flag es"></li>
+            </ul>
+            <p class="text-muted"> © 2015 Construpanel. Todos los derechos reservados.</p>
+        </div>
     </div>
 </footer>
-
-<svg xmlns="http://www.w3.org/2000/svg"  version="1.1">
-    <defs>
-        <filter id="blur">
-            <feGaussianBlur stdDeviation="5"/>
-        </filter>
-    </defs>
-</svg>
 
 <!-- build:js js/vendor.js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>

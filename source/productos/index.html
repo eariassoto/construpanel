@@ -31,53 +31,6 @@
 </head>
 <body>
 
-<div class="container" id="inicio">
-    <div id="myCarousel" class="carousel slide" data-interval="30000" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <!-- Carousel items -->
-        <div class="carousel-inner">
-            <div class="active item" id="item1">
-                <div class="carousel-caption">
-                    <h2>Panel frigorífico</h2>
-
-                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
-                        más información.</p>
-                    <a class="btn btn-primary btn-md button" href="/productos/panel-frigorifico.html" role="button">Más info »</a>
-                </div>
-            </div>
-            <div class="item" id="item2">
-                <div class="carousel-caption">
-                    <h2>Panel cubierta</h2>
-                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
-                        más información.</p>
-                    <a class="btn btn-primary btn-md button" href="/productos" role="button">Más info »</a>
-                </div>
-            </div>
-            <div class="item" id="item3">
-                <div class="carousel-caption">
-                    <h2>Panel fachada</h2>
-                    <p>Una par de oraciones que describan este panel. Es info muy simple para que el usuario vaya a leer
-                        más información.</p>
-                    <a class="btn btn-primary btn-md button" href="/productos" role="button">Más info »</a>
-                </div>
-            </div>
-        </div>
-        <!-- Carousel nav -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-
-    <!-- Static navbar -->
-
 </div>
 <div class="container">
     <nav id="navbar-top" class="navbar navbar-inverse">
@@ -90,11 +43,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Construpanel</a>
+                <a class="navbar-brand" href="/">Construpanel</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="ul-navbar nav navbar-nav">
-                    <li class="li-nav"><a href="/">Inicio</a></li>
                     <li class="li-nav"><a href="/#nosotros">Nosotros</a></li>
                     <li class="li-nav"><a href="/#servicios">Servicios</a></li>
                     <li class="li-nav active"><a href="#">Productos</a></li>
@@ -104,7 +56,7 @@
                     <li class="li-sn">
                         <a href="https://www.facebook.com/eariassoto" target="_blank">
                         <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x" ></i>
+                          <i class="fa fa-circle-thin fa-stack-2x"></i>
                           <i class="fa fa-facebook fa-stack-1x"></i>
                         </span>
                         </a>
@@ -125,21 +77,55 @@
 
 <div class="container" ng-controller="productsCtrl">
     <h1>Productos destacados</h1>
+
     <div class="row" style="margin-top:40px">
         <div class="col-md-6">
             <div class="row">
                 <div class="col-md-7">
-                    <img class="img-responsive center-block" src="../assets/images/frigo/panel-1.jpg"
+                    <img class="img-responsive center-block" src="../assets/images/10.png"
                          alt="Generic placeholder image">
                 </div>
                 <div class="col-md-5">
-                    <h2 class="featurette-heading">Panel frigorífico.</h2>
-                    <a class="btn btn-primary btn-lg button" href="/productos/panel-frigorifico.html" role="button">Ver más »</a>
+                    <h2 class="featurette-heading">Panel frigorífico</h2>
+                    <a class="btn btn-primary btn-lg button" href="/productos/panel-frigorifico.html" role="button">Ver
+                        más »</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <img class="img-responsive center-block" src="../assets/images/7.png"
+                         alt="Generic placeholder image">
+                </div>
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Panel fachada</h2>
+                    <a class="btn btn-primary btn-lg button" href="/productos/panel-fachada.html" role="button">Ver más
+                        »</a>
                 </div>
             </div>
         </div>
         <div class="col-md-6">
-            
+            <div class="row">
+                <div class="col-md-7">
+                    <img class="img-responsive center-block" src="../assets/images/1.png"
+                         alt="Generic placeholder image">
+                </div>
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Panel cubierta</h2>
+                    <a class="btn btn-primary btn-lg button" href="/productos/panel-cubierta.html" role="button">Ver más
+                        »</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-7">
+                    <img class="img-responsive center-block" src="../assets/images/26.jpg"
+                         alt="Generic placeholder image">
+                </div>
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Panel Phire</h2>
+                    <a class="btn btn-primary btn-lg button" href="/productos/panel-phire.html" role="button">Ver más
+                        »</a>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -148,6 +134,7 @@
     <div class="row">
         <div class="col-lg-12">
             <h1>Paneles</h1>
+
             <div class="div-content">
                 <form class="form-search form-inline">
                     <input type="text" class="form-control search-query" placeholder="Buscar" ng-model="query"/>
@@ -219,6 +206,7 @@
                             <div style="display: block; text-align: center;margin-top: 1em">
                                 <div ng-Style="{{color(item)}}" style="height: 140px!important;"></div>
                                 <p style="margin-bottom: 0;font-size: 16px">{{item.codigo}}</p>
+
                                 <p style="margin-bottom: 0;font-size: 16px">{{item.nombre | uppercase}}</p>
                             </div>
                         </div>
