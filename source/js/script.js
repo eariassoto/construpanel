@@ -19,7 +19,7 @@ $(function () {
     });
     $('.navbar-brand').click(function(){
         var hrefActual = ($(this).attr('href'));
-        $('.li-nav a').each(function(){
+        $('.navbar-brand').each(function(){
             if($(this).attr('href') == hrefActual){
                 $(this).parent().addClass('active');
             }

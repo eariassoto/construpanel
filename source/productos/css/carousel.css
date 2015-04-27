@@ -163,12 +163,15 @@ h1{
     }
 
     .featurette-heading {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     .content-image{
         width: 228px;
         height: 171px;
+    }
+    h1{
+        font-size: 45px;
     }
 }
 

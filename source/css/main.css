@@ -6,7 +6,7 @@ html {
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-bottom: 60px;
+    padding-bottom: 100px;
     color: #5a5a5a;
 }
 
@@ -15,12 +15,24 @@ body {
     bottom: 0;
     width: 100%;
     /* Set the fixed height of the footer here */
-    height: 60px;
+    height: 50px;
     background-color: #f5f5f5;
+    line-height: 20px;
 }
 
 .footer .container p{
-    font-size: 14px!important;
+    font-size: 16px!important;
+}
+
+.footer .container ul{
+    float: left;
+}
+#div-copy{
+    float: left;
+    margin-left: 5px;
+}
+#copy{
+    padding-top: 6px;
 }
 
 /*carousel*/
@@ -73,7 +85,7 @@ body {
 .button:hover{
     background-color: #961131;
 }
-.li-nav a{
+li a{
     color: white!important;
 }
 .navbar-brand{

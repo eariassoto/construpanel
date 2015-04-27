@@ -16,6 +16,8 @@
     <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='../bower_components/open-sans-fontface/open-sans.css' rel='stylesheet'>
     <!-- endbuild -->
+    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css"/>
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -141,7 +143,10 @@
                 </form>
             </div>
             <div style="overflow-y: scroll; height: 1000px">
-                <div class="content-section" ng-repeat="p in productos | filter:busqueda">
+                <div class="well" ng-show="!filteredItems.length">
+                    <h4>La búsqueda "{{query}}" no ha obtenido resultados.</h4>
+                </div>
+                <div class="content-section" ng-repeat="p in filteredItems  = (productos | filter:busqueda)">
                     <div class="row content-section-title">
                         <div class="col-sm-6 left">
                             <h3>{{p.nombre | uppercase}}</h3>
@@ -219,14 +224,19 @@
 
 <footer class="footer">
     <div class="container">
-        <p class="text-muted">© 2015 Construpanel. Todos los derechos reservados.</p>
+        <ul class="f32">
+            <li class="flag cr"></li>
+            <li class="flag es"></li>
+        </ul>
+        <div id="div-copy">
+            <p class="text-muted" id="copy">© 2015 Construpanel. Todos los derechos reservados.</p>
+        </div>
     </div>
 </footer>
 
 <!-- build:js js/vendor.js -->
 <script src="../bower_components/jquery/dist/jquery.js"></script>
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<script src="../js/holder.js"></script>
 <!-- endbuild -->
 <!-- build:js js/app.js -->
 <script src="js/myApp.js"></script>

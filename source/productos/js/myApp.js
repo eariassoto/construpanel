@@ -10,6 +10,8 @@
             $scope.productos = data;
         });
 
+        $scope.p = [];
+
         $scope.color = function(i){
             return {'background-color': i.color};
         };
