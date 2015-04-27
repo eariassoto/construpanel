@@ -1,0 +1,52 @@
+
+#contacto{
+    padding-top: 20px
+}
+
+#contact-header{
+    padding-left: 15px;
+    padding-right: 15px
+}
+
+#contact-header h2{
+    font-size: 40px;
+    line-height: 40px;
+}
+#contact-header p{
+    font-size: 18px
+}
+
+.contact-list li{
+    font-size: 18px;
+    margin-top: 1em;
+}
+
+.contact-list li i{
+    color: #790923;
+    font-size: 20px;
+}
+
+.contact-div{
+    margin-top: 1.5em;
+}
+.contact-input{
+    padding: 0 1em;
+    width: 100%;
+    height: 3em;
+}
+.contact-textarea{
+    padding: 0.75em 1em;
+}
+.contact-form{
+    font-size: 18px;
+    border-radius:0;
+    background:rgba(121, 9, 47, 0.15);
+    color:#6f7577;
+    border: none;
+}
+
+.contact-form:focus{
+    outline: none;
+    box-shadow: inset 0 0 0 2px #8cd1a8;
+}
+

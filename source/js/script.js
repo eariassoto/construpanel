@@ -3,10 +3,10 @@ $(function () {
 
     $('#nav').affix({
         offset: {
-            top: $('#inicio').height()
+            top: $('#inicio').height()-72
         }
     });
-    $('.nav li a').click(function(){
+    $('.li-nav a').click(function(){
         var hrefActual = ($(this).attr('href'));
         $('.li-nav a').each(function(){
             if($(this).attr('href') == hrefActual){
@@ -19,7 +19,7 @@ $(function () {
     });
     $('.navbar-brand').click(function(){
         var hrefActual = ($(this).attr('href'));
-        $('.navbar-brand').each(function(){
+        $('.li-nav a').each(function(){
             if($(this).attr('href') == hrefActual){
                 $(this).parent().addClass('active');
             }
