@@ -1,0 +1,20 @@
+.img-title{
+    font-size: 18px;
+}
+.contenido-encabezado {
+    margin-top: 20px!important;
+    font-size: 40px;
+}
+@media (min-width: 768px) {
+
+    .contenido-encabezado {
+        font-size: 50px;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .contenido-encabezado {
+        margin-top: 60px;
+    }
+}

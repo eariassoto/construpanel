@@ -38,9 +38,23 @@ body {
 }
 
 /*     carousel            */
-#logo img{
+.flag-icon{
+    padding-top: 2px;
+    width: 45px;
+    height: auto;
+}
+#img-logo{
+    padding: 20px;
     position: absolute;
     z-index: 999999999999;
+    width: 350px;
+    height: auto;
+}
+
+#logo-menu{
+    padding: 20px;
+    width: 350px;
+    height: auto;
 }
 
 .carousel-control{
@@ -82,6 +96,9 @@ li a{
     color: white!important;
 }
 
+.active{
+    background-color: #961131!important;
+}
 .active > a{
     background-color: #961131!important;
 }

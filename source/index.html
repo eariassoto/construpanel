@@ -7,7 +7,23 @@
 
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <title>ConstruPanel</title>
 
@@ -16,7 +32,6 @@
     <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href='bower_components/open-sans-fontface/open-sans.css' rel='stylesheet'>
     <!-- endbuild -->
-    <link rel="stylesheet" type="text/css" href="//cloud.github.com/downloads/lafeber/world-flags-sprite/flags32.css"/>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -35,44 +50,45 @@
 <!-- encabezado -->
 <div class="container">
     <div id="inicio" class="carousel slide" data-interval="30000" data-ride="carousel">
-        <!-- Carousel indicators -->
         <ol class="carousel-indicators">
             <li data-target="#inicio" data-slide-to="0" class="active"></li>
             <li data-target="#inicio" data-slide-to="1"></li>
             <li data-target="#inicio" data-slide-to="2"></li>
             <li data-target="#inicio" data-slide-to="3"></li>
         </ol>
-        <!-- Carousel items -->
         <div class="carousel-inner">
             <div id="logo">
-                <img src="http://placehold.it/250x150&text=logo">
+                <img id="img-logo" src="assets/logo.png">
             </div>
             <div class="active item" id="item1">
                 <div class="carousel-caption">
                     <h2>Panel frigorífico</h2>
-                    <a class="btn btn-primary btn-md button" href="/productos/panel-frigorifico.html" role="button">Más info »</a>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-frigorifico.html" role="button">Más
+                        info »</a>
                 </div>
             </div>
             <div class="item" id="item2">
                 <div class="carousel-caption">
                     <h2>Panel cubierta</h2>
-                    <a class="btn btn-primary btn-md button" href="/productos/panel-cubierta.html" role="button">Más info »</a>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-cubierta.html" role="button">Más
+                        info »</a>
                 </div>
             </div>
             <div class="item" id="item3">
                 <div class="carousel-caption">
                     <h2>Panel fachada</h2>
-                    <a class="btn btn-primary btn-md button" href="/productos/panel-fachada.html" role="button">Más info »</a>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-fachada.html" role="button">Más info
+                        »</a>
                 </div>
             </div>
             <div class="item" id="item4">
                 <div class="carousel-caption">
                     <h2>Panel Phire</h2>
-                    <a class="btn btn-primary btn-md button" href="/productos/panel-phire.html" role="button">Más info »</a>
+                    <a class="btn btn-primary btn-md button" href="/productos/panel-phire.html" role="button">Más info
+                        »</a>
                 </div>
             </div>
         </div>
-        <!-- Carousel nav -->
         <a class="carousel-control left" href="#inicio" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
@@ -80,9 +96,6 @@
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
-
-    <!-- Static navbar -->
-
 </div>
 
 <div class="container" id="nav">
@@ -96,31 +109,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand active" href="#inicio">Construpanel</a>
+                <a class="navbar-brand active" href="#">Construpanel</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="ul-navbar nav navbar-nav">
-                    <li class="li-nav"><a href="#nosotros">Nosotros</a></li>
-                    <li class="li-nav"><a href="#servicios">Servicios</a></li>
+                    <li class="li-nav   "><a href="#nosotros">Nosotros</a></li>
+                    <li class="li-nav"><a href="/servicios">Servicios</a></li>
                     <li class=""><a href="/productos">Productos</a></li>
                     <li class=""><a href="/contactenos">Contáctenos</a></li>
                 </ul>
                 <ul class="ul-navbar nav navbar-nav navbar-right">
                     <li class="li-sn">
-                        <a href="https://www.facebook.com/eariassoto" target="_blank">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle-thin fa-stack-2x" ></i>
-                          <i class="fa fa-facebook fa-stack-1x"></i>
-                        </span>
-                        </a>
+                        <img src="assets/cr-flag.png" class="flag-icon">
                     </li>
                     <li class="li-sn">
-                        <a href="https://twitter.com/probably_a_geek" target="_blank">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle-thin fa-stack-2x"></i>
-                      <i class="fa fa-twitter fa-stack-1x"></i>
-                    </span>
-                        </a></li>
+                        <img src="assets/spain-flag.png" class="flag-icon">
+                    </li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -133,10 +137,26 @@
     <section id="nosotros">
         <hr class="divisor">
         <div class="row">
-            <div class="col-sm-8 col-sm-offset-2">
+            <div class="col-md-8">
                 <h1 class="contenido-h1">
-                    Construpanel es una empresa costarricense que consectetur adipiscing elit. Sed ac nibh nec tortor eleifend semper in eu lorem.
+                    Construpanel es una Empresa costarricense que desea a través de su actividad de importación y
+                    venta de Panel Térmico con núcleo de poliuretano, beneficios económicos a todos sus socios
+                    comerciales ofreciendo calidad en la prestación de sus servicios con precios acorde a lo ofrecido.
                 </h1>
+            </div>
+            <div class="col-md-4">
+                <a class="twitter-timeline" href="https://twitter.com/construpanelcr"
+                   data-widget-id="593038324161335296">Tweets by @construpanelcr</a>
+                <script>!function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                    if (!d.getElementById(id)) {
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = p + "://platform.twitter.com/widgets.js";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }
+                }(document, "script", "twitter-wjs");</script>
+
             </div>
         </div>
 
@@ -144,8 +164,8 @@
         <div class="row">
             <div class="col-lg-4">
                 <img class="img-circle"
-                     src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                     alt="Generic placeholder image" width="140" height="140">
+                     src="assets/images/cub2.jpg"
+                     alt="Generic placeholder image" width="220" height="220">
 
                 <h2>Misión</h2>
 
@@ -158,8 +178,8 @@
             </div>
             <div class="col-lg-4">
                 <img class="img-circle"
-                     src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=="
-                     alt="Generic placeholder image" width="140" height="140">
+                     src="assets/images/fach1.png"
+                     alt="Generic placeholder image" width="220" height="220">
 
                 <h2>Visión</h2>
 
@@ -169,27 +189,19 @@
 
             </div>
             <div class="col-lg-4">
-                <img class="img-responsive center-block"
-                     src=http://placehold.it/390x360" alt="Generic placeholder image">
-            </div>
-        </div>
-    </section>
-
-    <section id="servicios" style="padding-top: 20px">
-        <hr class="divisor">
-        <div class="row">
-            <div class="col-xs-12">
-                <h2 class="contenido-encabezado">Servicios</h2>
-
-                <p class="lead" style="font-size: 28px">Nuestros servicios están orientados a que podamos contribuir con el buen desarrollo de
-                    su proyecto apoyándolos con:</p>
-                <ul class="lead" style="font-size: 26px;padding-right: 30%;margin-left: 15px">
-                    <li>Diseño del anteproyecto.</li>
-                    <li>Planos.</li>
-                    <li>Presupuestos.</li>
-                    <li>Visita al sitio.</li>
-                    <li>Cooperar con todos los trámites necesarios para que no tenga inconveniente alguno en el momento
-                        de iniciar la obra.
+                <ul class="list-unstyled contact-list" style="font-size: 18px;">
+                    <li>
+                        <i class="fa fa-home fa-1x"></i>
+                        Alajuela, del hotel Hampton Inn, 1.5 km. al noreste carretera al Invu. Contiguo al plantel
+                        del MOPT
+                    </li>
+                    <li>
+                        <i class="fa fa-mobile fa-1x"></i>
+                        (+506) 8314-6881
+                    </li>
+                    <li>
+                        <i class="fa fa-envelope-o fa-1x"></i>
+                        <a href="mailto:info@construpanelcr.com" style="color: #790923!important;">info@construpanelcr.com</a>
                     </li>
                 </ul>
             </div>
@@ -200,10 +212,6 @@
 
 <footer class="footer">
     <div class="container">
-        <ul class="f32">
-            <li class="flag cr"></li>
-            <li class="flag es"></li>
-        </ul>
         <div id="div-copy">
             <p class="text-muted" id="copy">© 2015 Construpanel. Todos los derechos reservados.</p>
         </div>
@@ -213,9 +221,6 @@
 <!-- build:js js/vendor.js -->
 <script src="bower_components/jquery/dist/jquery.js"></script>
 <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-<!-- endbuild -->
-<!-- build:js js/app.js -->
-<script src="js/script.js"></script>
 <!-- endbuild -->
 </body>
 </html>

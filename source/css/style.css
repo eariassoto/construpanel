@@ -15,7 +15,7 @@ h2{
 
 .carousel-caption h2{
     color: #790923;
-    font-size: 42px!important;
+    font-size: 50px!important;
 }
 
 .carousel-caption p{
@@ -83,10 +83,6 @@ h2{
     line-height: 40px;
   }
 
-  .contenido-encabezado {
-    font-size: 50px;
-  }
-
   .divisor {
     margin: 30px 0;
   }
@@ -94,12 +90,8 @@ h2{
 
 @media (min-width: 992px) {
 
-  .contenido-encabezado {
-    margin-top: 60px;
-  }
-
   .contenido-h1{
-    font-size: 3em;
+    font-size: 2em;
     line-height: 40px;
     padding-top: 0;
     margin-top: 40px;
