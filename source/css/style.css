@@ -15,7 +15,7 @@ h2{
 
 .carousel-caption h2{
     color: #790923;
-    font-size: 50px!important;
+    font-size: 34px!important;
 }
 
 .carousel-caption p{
@@ -100,6 +100,13 @@ h2{
   .divisor {
     margin: 40px 0;
   }
+
+    .carousel-caption h2{
+        color: #790923;
+        font-size: 50px!important;
+    }
+
+
 }
 
 @media (min-width: 1200px) {
