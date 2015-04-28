@@ -96,9 +96,6 @@ li a{
     color: white!important;
 }
 
-.active{
-    background-color: #961131!important;
-}
 .active > a{
     background-color: #961131!important;
 }
